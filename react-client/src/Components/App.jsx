@@ -8,6 +8,8 @@ import Contact from './Contact';
 import Coursework from './Coursework';
 import Projects from './Projects';
 import Resume from './Resume';
+import Experience from './Experience';
+import Interests from './Interests';
 class App extends Component {
   render() {
     return (
@@ -16,8 +18,10 @@ class App extends Component {
           <NavBar />
           <Route name="home" exact path="/" component={HomePage} />
           <Route name="resume" exact path="/resume/" component={Resume} />
+          <Route name="workExperience" exact path="/work_experience/" component={Experience} />
           <Route name="coursework" exact path="/coursework/" component={Coursework} />
           <Route name="projects" exact path="/projects/" component={Projects} />
+          <Route name="interests" exact path="/interests/" component={Interests} />
           <Route name="contact" exact path="/contact/" component={Contact} />
         </div>
       </Router>

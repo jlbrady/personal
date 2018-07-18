@@ -19,7 +19,7 @@ module.exports = {
       },
       {
         test: /\.png$/,
-        loader: 'url-loader?limit=100000&minetype=image/png'
+        loader: 'url-loader?limit=1000000&mimetype=image/png'
       },
       {
         test: /\.jpg/,
