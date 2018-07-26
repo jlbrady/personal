@@ -1,6 +1,6 @@
 header {
   display: block;
-  background-color: #0288D1;
+  background-color: #00274c;
   width: 100%;
   height: 5%;
   color: white;
@@ -112,4 +112,8 @@ footer {
 }
 ::-webkit-scrollbar { 
     display: none;  /* Safari and Chrome */
+}
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #00274c !important;
+    display: block !important;
 }
