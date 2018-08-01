@@ -1,9 +1,50 @@
 import React, { Component } from 'react';
 class Contact extends Component {
   render() {
-    let simple_form="<form id='contactform' action='//formspree.io/jlbrady@umich.edu' method='POST'><input type='text' name='name' placeholder='Your name'><input type='email' name='_replyto' placeholder='Your email'><input type='hidden' name='_subject' value='Resume Website contact' /><textarea name='message' placeholder='Your message'></textarea><input type='text' name='_gotcha' style='display:none' /><input type='submit' value='Send'></form>";
     return (
-      <div dangerouslySetInnerHTML={{__html: simple_form}}></div>
+      <div className="emailForm">
+        <form
+        action="https://formspree.io/jlbrady@umich.edu"
+        method="POST"
+        className="row"
+        >
+        <div className="col-lg-8" style={{ margin: '0 auto' }}>
+          <div className="row">
+            <div className="form-group  col-md-6">
+              <label htmlFor="_replyto" style={{color: '#fff', fontSize: '26px'}}>Email</label>
+              <input
+                type="email"
+                name="_replyto"
+                placeholder="email@gmail.com"
+                className="form-control"
+                required
+              />
+            </div>
+            <div className="form-group col-md-6">
+              <label htmlFor="name" style={{color: '#fff', fontSize: '26px'}}>Name</label>
+              <input name="name" className="form-control" placeholder="Your name" required />
+            </div>
+          </div>
+          <div className="form-group">
+            <label htmlFor="message" style={{color: '#fff', fontSize: '26px'}}>Message</label>
+            <textarea
+              className="form-control"
+              name="message"
+              placeholder="Your message here..."
+              rows="10"
+              required
+            />
+          </div>
+          <div className="text-right">
+            <input
+              type="submit"
+              value="SEND MESSAGE"
+              className="btn btn-primary btn-submit"
+            />
+          </div>
+        </div>
+        </form>
+      </div>
     )
   }
 }
