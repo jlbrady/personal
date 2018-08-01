@@ -23,7 +23,7 @@ module.exports = {
       },
       {
         test: /\.jpg/,
-        loader: 'file-loader'
+        loader: 'url-loader?limit=1000000&mimetype=image/png'
       },
       {
         test : /\.jsx?/,
