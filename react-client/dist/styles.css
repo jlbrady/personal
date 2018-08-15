@@ -34,6 +34,7 @@ header {
   padding-bottom: 0.2%;
   height: 4%;
   width: 4%; 
+  cursor: pointer;
 }
 .navButton a {
   font-size: 26px;
