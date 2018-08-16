@@ -12,7 +12,7 @@ class Interests extends Component {
         </div>
         <div className="about">
           <h3 style={{textAlign: 'center'}}>
-            <a href="https://www.linkedin.com/in/james-brady-115388115/" target="_blank">LinkedIn Profile</a>
+            <a href="//www.linkedin.com/in/james-brady-115388115/" target="_blank">LinkedIn Profile</a>
           </h3>
           <h3 style={{textAlign: 'center'}}>Phone: (516)-492-4938</h3>
           <h3 style={{textAlign: 'center'}}>Email: JLBrady@Umich.edu</h3>

@@ -13,7 +13,7 @@ class HomePage extends Component {
       <div>
         <header>
           <ul id="headerButtons">
-            <li className="navButton" onClick={() => scrollToComponent(this.About1, { offset: -100, align: 'top', duration: 1000})}><img src="https://upload.wikimedia.org/wikipedia/commons/3/36/Michigan_Wolverines_Block_M.png"/></li>
+            <li className="navButton" onClick={() => scrollToComponent(this.About1, { offset: -100, align: 'top', duration: 1000})}><img src="//upload.wikimedia.org/wikipedia/commons/3/36/Michigan_Wolverines_Block_M.png"/></li>
             <li className="navButton" onClick={() => scrollToComponent(this.About1, { offset: -100, align: 'top', duration: 1000})}><a href="#">About</a></li>
             <li className="navButton" onClick={() => scrollToComponent(this.Resume1, { offset: -100, align: 'top', duration: 1000})}><a href="#">Resume</a></li>
             <li className="navButton" onClick={() => scrollToComponent(this.Projects1, { offset: -100, align: 'top', duration: 1000})}><a href="#">Projects</a></li>

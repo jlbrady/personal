@@ -4,7 +4,7 @@ class Coursework extends Component {
     return (
       <div>
         <div id="background">
-          <img src="http://paperlief.com/images/university-of-michigan-campus-wallpaper-4.jpg" class="stretch" alt="" />
+          <img src="//paperlief.com/images/university-of-michigan-campus-wallpaper-4.jpg" class="stretch" alt="" />
         </div>
         <div id="info">
           <ul>

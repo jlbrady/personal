@@ -4,7 +4,7 @@ class Contact extends Component {
     return (
       <div className="emailForm">
         <form
-        action="https://formspree.io/jlbrady@umich.edu"
+        action="//formspree.io/jlbrady@umich.edu"
         method="POST"
         className="row"
         >
