@@ -15,7 +15,7 @@ class Interests extends Component {
             <a href="//www.linkedin.com/in/james-brady-115388115/" target="_blank">LinkedIn Profile</a>
           </h3>
           <h3 style={{textAlign: 'center'}}>Phone: (516)-492-4938</h3>
-          <h3 style={{textAlign: 'center'}}>Email: JLBrady@Umich.edu</h3>
+          <h3 style={{textAlign: 'center'}}>Email: JLBrady@umich.edu</h3>
         </div>
       </div>
     )
